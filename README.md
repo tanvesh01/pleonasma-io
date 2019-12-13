@@ -2,7 +2,7 @@
 
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
-
+[![Build Status](https://travis-ci.org/tulsi-prasad/pleonasma.svg?branch=master)](https://travis-ci.org/tulsi-prasad/pleonasma)
 
 Hey there, you *Homosapien*. You are most welcome to check out the source for my blog website. By the way, did you even know that **Pleonasm** is a real word? Don't worry, it's not any tech stuff you're missing out from.
 
