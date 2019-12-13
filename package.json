@@ -1,7 +1,11 @@
 {
   "name": "pleonasma",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass public/sass/main.scss public/css/styles.css -w"
+  },
   "author": "Tulsi Prasad <tulsi.prasad50@gmail.com>",
   "license": "MIT",
   "description": "One with my writings",
@@ -9,6 +13,8 @@
     "node-sass": "^4.13.0"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
