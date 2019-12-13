@@ -3,6 +3,8 @@
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
 [![Build Status](https://travis-ci.org/tulsi-prasad/pleonasma.svg?branch=master)](https://travis-ci.org/tulsi-prasad/pleonasma)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![Chat-on-Slack](https://img.shields.io/badge/chat-slack-blueviolet)](https://join.slack.com/t/pleonasma/shared_invite/enQtODYxMDgxNDA0NTE1LWQ3YTljZTQ0OTM3MTQ5MWQ3OWNmZmRkOWE2ZTc1ZmZkNGY1ZDdhYzM2MTgyOWEyNGQyZGRlNTZiNmEwNTFiNmY)
 
 Hey there, you *Homosapien*. You are most welcome to check out the source for my blog website. By the way, did you even know that **Pleonasm** is a real word? Don't worry, it's not any tech stuff you're missing out from.
 
