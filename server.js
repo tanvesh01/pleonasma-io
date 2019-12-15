@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get('/people', (req, res) => {
+app.get('/', (req, res) => {
     const people = [
         {id: 1, firstName: 'Adam', lastName: 'Apple'},
         {id: 2, firstName: 'Adam', lastName: 'Apple'},
