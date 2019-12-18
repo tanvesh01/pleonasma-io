@@ -11,8 +11,8 @@
   "license": "MIT",
   "description": "One with my writings",
   "devDependencies": {
-    "node-sass": "^4.13.0",
-    "nodemon": "^2.0.2"
+    "node-sass": "4.13.0",
+    "nodemon": "2.0.2"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
