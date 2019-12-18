@@ -1,19 +1,22 @@
 {
   "name": "pleonasma",
   "version": "1.0.0",
-  "main": "src/server/index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass public/sass/main.scss public/css/styles.css -w"
+    "start": "concurrently \"npm run api\" \"npm run client\"",
+    "client": "npm start --prefix client",
+    "api": "npm start --prefix api"
   },
   "author": "Tulsi Prasad <tulsi.prasad50@gmail.com>",
   "license": "MIT",
   "description": "One with my writings",
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.2"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
+    "concurrently": "^5.0.1",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "react": "^16.12.0",
