@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "concurrently \"npm run api\" \"npm run client\"",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "api": "npm start --prefix api"
   },
   "author": "Tulsi Prasad <tulsi.prasad50@gmail.com>",
   "license": "MIT",
