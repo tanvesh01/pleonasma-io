@@ -2,7 +2,7 @@
 
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
-[![Build Status](https://travis-ci.org/tulsi-prasad/pleonasma.svg?branch=master)](https://travis-ci.org/tulsi-prasad/pleonasma)
+[![Build Status](https://travis-ci.org/tulsi-prasad/pleonasma-io.svg?branch=master)](https://travis-ci.org/tulsi-prasad/pleonasma-io)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Chat-on-Slack](https://img.shields.io/badge/chat-slack-blueviolet)](https://join.slack.com/t/pleonasma/shared_invite/enQtODYxMDgxNDA0NTE1LWQ3YTljZTQ0OTM3MTQ5MWQ3OWNmZmRkOWE2ZTc1ZmZkNGY1ZDdhYzM2MTgyOWEyNGQyZGRlNTZiNmEwNTFiNmY)
 
@@ -33,6 +33,20 @@ We are now working on building a frontend for the web application. The objective
 * To start writing one needs to give a topic (resolution) which will be categorized.
 * One can’t give more than one topics, until and unless the user quits the resolution.
 
+## How to contribute to this project?
+
+* fork and clone this repo
+* `cd pleonasma-io` 
+* `npm install`
+* to setup the backend built with express:
+    * `npm run api-install`
+* to setup the frontend built with react:
+    * `npm run client-install`
+* finally to start local server
+    * `npm run start`
+* create an issue on github if anything goes wrong will get to you soon
+
+
 ## Chapter of Pleonasma
 
 A chapter of Pleonasma refers to one directory of a person with a profile which is made when one signs up to the application. This contains a record of all your resolutions you have taken and each resolution contains each day of your work and learning you made, all within. Only condition is one can pledge only of one resolution at once and after finishing that only one can take another resolution. This is the underlying principle behind all achievements.
@@ -43,4 +57,4 @@ You can make the difference.
 
 ## And Nice to Meet You!
 
-Tulsi Prasad.
+Tulsi Prasad
