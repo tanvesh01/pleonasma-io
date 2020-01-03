@@ -42,6 +42,10 @@ We are now working on building a frontend for the web application. The objective
     * `npm run api-install`
 * to setup the frontend built with react:
     * `npm run client-install`
+* then install concurrently globally:
+    * `npm install concurrently -g`
+* then install express:
+    * `npm install express`        
 * finally to start local server
     * `npm run start`
 * create an issue on github if anything goes wrong will get to you soon
