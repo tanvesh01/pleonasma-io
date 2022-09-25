@@ -13,7 +13,7 @@
   "license": "MIT",
   "description": "One with my writings",
   "devDependencies": {
-    "node-sass": "4.13.0",
+    "node-sass": "6.0.1",
     "nodemon": "2.0.2"
   },
   "dependencies": {
